@@ -11,8 +11,14 @@
     <name>ch2-1</name>
     <url>http://springcloud.cn</url>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.1.RELEASE</version>
+    </parent>
+    
     <properties>
-        <spring-cloud.version>Finchley.M9</spring-cloud.version>
+        <spring-cloud.version>Finchley.RC2</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
